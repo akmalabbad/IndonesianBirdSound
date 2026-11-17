@@ -1,0 +1,44 @@
+{
+  "best_model": "Logistic Regression",
+  "config": {
+    "dataset": "indonesian-bird-sounds",
+    "sample_rate": 22050,
+    "max_duration": 30,
+    "seed": 42,
+    "search_iterations": 3,
+    "cv_folds": 3,
+    "n_jobs": 2
+  },
+  "dataset_signature": "a3c1d21411ce9bfe6eaa4f441210d1c3f8da136a2cc7bf3dc343a7241eba056b",
+  "feature_key": "36a44d9cb914d29d9a586b5f576a389854c58dbcf24e6ea409e92a26198a7a2d",
+  "python": "3.10.0",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "librosa": "0.11.0",
+    "soundfile": "0.14.0",
+    "scikit-learn": "1.7.2",
+    "xgboost": "3.2.0",
+    "lightgbm": "4.6.0",
+    "scikit-fuzzy": "0.5.0"
+  },
+  "test_metrics": {
+    "accuracy": 0.517814726840855,
+    "balanced_accuracy": 0.5201309159045029,
+    "macro_precision": 0.5222296010427112,
+    "macro_recall": 0.5201309159045029,
+    "macro_f1": 0.5034421373404728,
+    "weighted_f1": 0.5272781883084098
+  },
+  "test_predict_seconds": 0.004687700013164431,
+  "bootstrap_macro_f1_95": [
+    0.43286210169602524,
+    0.5418546730262727
+  ],
+  "probabilities_calibrated": false,
+  "split_counts": {
+    "train": 1102,
+    "test": 421,
+    "validation": 396
+  }
+}

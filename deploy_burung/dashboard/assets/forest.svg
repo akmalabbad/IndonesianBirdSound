@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="650" viewBox="0 0 1600 650">
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#aec8ab"/><stop offset="1" stop-color="#315f4c"/></linearGradient><linearGradient id="shade"><stop stop-color="#0d3029"/><stop offset="1" stop-color="#0d3029" stop-opacity="0"/></linearGradient><radialGradient id="sun"><stop stop-color="#ffe5a1" stop-opacity=".85"/><stop offset="1" stop-color="#ffe5a1" stop-opacity="0"/></radialGradient><g id="tree"><path d="M0 0L-72 165H-42L-100 290H-48L-126 420H-8V500H8V420H126L48 290H100L42 165H72Z"/></g></defs>
+<path fill="url(#sky)" d="M0 0H1600V650H0Z"/><circle cx="1200" cy="130" r="300" fill="url(#sun)"/>
+<path d="M0 350Q280 170 570 350T1100 280T1600 300V650H0" fill="#789c81"/>
+<g fill="#4c7a63"><use href="#tree" transform="translate(890 90) scale(.8)"/><use href="#tree" transform="translate(1120 120) scale(.75)"/><use href="#tree" transform="translate(1470 40) scale(.95)"/><use href="#tree" transform="translate(700 170) scale(.7)"/></g>
+<path d="M0 470Q400 310 800 490T1600 410V650H0" fill="#345f4c"/>
+<g fill="#214d3e"><use href="#tree" transform="translate(1320 170)"/><use href="#tree" transform="translate(1550 170) scale(1.1)"/><use href="#tree" transform="translate(940 260) scale(.8)"/></g>
+<path fill="url(#shade)" d="M0 0H1600V650H0Z"/>
+<path d="M1110 400Q1260 352 1490 388" fill="none" stroke="#d1af77" stroke-width="9" stroke-linecap="round"/>
+<g transform="translate(1240 305)"><path d="M-55 50Q-85 65-100 100L-32 76Z" fill="#d4a751"/><ellipse rx="55" ry="43" fill="#dcb15d" transform="rotate(-18)"/><path d="M-45 10Q-15-28 25 6Q-9 60-45 10" fill="#527d68"/><circle cx="44" cy="-27" r="30" fill="#dcb15d"/><path d="M61-35L94-26L66-15" fill="#342d22"/><path d="M21-39Q40-69 67-39" fill="#294f40"/><circle cx="52" cy="-31" r="5" fill="#172c25"/><circle cx="53" cy="-33" r="1.5" fill="white"/><path d="M9 37L17 61M31 29L39 59" stroke="#d1af77" stroke-width="4"/></g>
+<g stroke="#d9e5cf" stroke-width="3" fill="none" opacity=".7"><path d="M1070 167q12-16 24 0q12-16 24 0M1370 100q8-11 16 0q8-11 16 0"/></g>
+</svg>
